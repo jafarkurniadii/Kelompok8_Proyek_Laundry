@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<link rel="stylesheet" href="proseslogin.php">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Page Ratu Clean</title>
+  </head>
+  <body style="background:url(assets/img/bglogin.jpg); background-size:1367px auto; padding-bottom:55px">
+    <nav class="navbar navb ar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="assets/img/logolaundry.ico" height="60" width="55">Ratu Clean</a>
+    </div>
+  </nav>
+    <br>
+
+    <div class="container-sm">
+      <div class="card">
+        <div class="card-header text-center">
+          <h4>Log In</h4>
+        </div>
+        <div class="card-body">
+          <img src="assets/img/logolaundry.ico" class="mx-auto d-block">
+          <h5 class="card-title text-center">Ratu Clean</h5>
+          <p class="card-text text-center">Jl. Pramuka Komp. Rahayu, Jl. Pembina II Telp. (0511) 3265146</p>
+
+        <br>
+        <form method="POST" action="proseslogin.php">
+          <div class="form-group" >
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" name="username">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password">
+          </div>
+          <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
+      </div>
+      <br><br><br><br>
+        <div class="container text-center">
+          <h6>By. JNN</h6>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js" ></script>
+
+  </body>
+</html>
